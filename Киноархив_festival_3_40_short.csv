@@ -1,0 +1,10 @@
+id,type,arrival_ms,service_ms,started_ms,end_ms,status,latency_ms
+1,preview,0,200,0,200,OK,200
+2,preview,250,200,250,450,OK,200
+3,preview,500,200,500,700,OK,200
+4,restore,750,1600,2550,4150,OK,3400
+5,preview,1000,200,700,900,OK,200
+...
+478,restore,59500,1600,0,0,REJECTED,5000
+479,preview,59750,200,60000,60200,OK,450
+480,restore,60000,1600,0,0,TIMEOUT,5000
